@@ -1,2 +1,2 @@
 # curriculum-vitae
- Página com o meu cúrriculo pessoal.
+ Página com o meu currículo pessoal.

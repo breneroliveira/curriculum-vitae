@@ -1,6 +1,6 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 body {
@@ -9,22 +9,19 @@ body {
 
 main {
     background-color: white;
-    width: 800px;
+    width: 850px;
     margin: auto;
     padding: 16px;
     box-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.473);
     text-align: justify;
 }
 
+h2 {
+    font-size: 18px;
+}
+
 p {
     margin-right: 0pt;
     text-align: left;
-}
-
-strong {
-    line-height: 40pt;
-}
-
-div {
-    text-align: center;
+    line-height: 20pt;
 }

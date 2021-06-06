@@ -30,11 +30,24 @@ p {
     line-height: 20pt;
 }
 
-footer {
-    margin: auto;
+div {
     text-align: center;
+    width: 50%;
+    background-color: red;
+}
+
+footer {
+    text-align: center;
+    margin-top: 25pt;
+}
+
+img {
+    margin-right: 3pt;
 }
 
 a {
-    
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-right: 0pt;
 }

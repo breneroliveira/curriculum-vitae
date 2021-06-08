@@ -31,23 +31,27 @@ p {
 }
 
 div {
-    text-align: center;
+    margin: auto;
     width: 50%;
-    background-color: red;
+    /*background-color: red;*/
+    width: 250px;
+    height: 50pt;
+    
 }
 
 footer {
     text-align: center;
     margin-top: 25pt;
+    /*background-color: green;*/
+    /*padding-right: 0pt;*/
 }
 
 img {
-    margin-right: 3pt;
+    /*margin-right: 3pt;*/
 }
 
 a {
-    text-align: center;
     text-decoration: none;
     color: black;
-    margin-right: 0pt;
+    margin-right: 30pt;
 }

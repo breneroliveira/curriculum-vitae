@@ -51,3 +51,9 @@ a {
     color: black;
     margin-right: 30pt;
 }
+
+@media (max-width: 925px) {
+    main {
+        width: 450px;
+    }
+}

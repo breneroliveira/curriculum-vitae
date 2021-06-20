@@ -30,18 +30,19 @@ p {
     line-height: 20pt;
 }
 
-div {
+/*div {
     margin: auto;
-    width: 50%;
+    width: 50%;*/
     /*background-color: red;*/
-    width: 250px;
+    /*width: 250px;
     height: 50pt;
     
-}
+}*/
 
 footer {
     text-align: center;
     margin-top: 25pt;
+    height: 50pt;
     /*background-color: green;*/
     /*padding-right: 0pt;*/
 }
@@ -49,11 +50,32 @@ footer {
 a {
     text-decoration: none;
     color: black;
-    margin-right: 30pt;
+    margin-right: 0pt;
+}
+
+.linkedin {
+    margin-left: 30pt;
 }
 
 @media (max-width: 925px) {
     main {
         width: 450px;
     }
+}
+
+::-webkit-scrollbar-track {
+    
+}
+
+::-webkit-scrollbar {
+    width: 6pt;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(179, 174, 174);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(179, 174, 174, 0.781);
 }

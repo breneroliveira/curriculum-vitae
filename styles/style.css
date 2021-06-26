@@ -16,14 +16,27 @@ main {
     text-align: justify;
 }
 
+h1 {
+    font-size: 20px;
+}
+
 @media (min-width: 56em/*max-width: 925px*/) {
     main {
         width: 850px;
     }
+
+    h1 {
+        font-size: 30px;
+        /*vertical-align: middle;
+        text-align: left;*/
+        /*display: flex;*/
+    }
 }
 
-h1 {
-    font-size: 30px;
+hr {
+    margin-top: 1.8em;
+    margin-bottom: 2em;
+    /*box-shadow: rgb(50, 50, 50, 0.60) -0.1em 0.1em 0.2em;*/
 }
 
 h2 {
@@ -60,8 +73,12 @@ a {
 }
 
 img {
-    position: absolute;
+    vertical-align: middle;
     /*float: left;*/
+}
+
+.logo {
+    margin-right: 1em;
 }
 
 img:hover {

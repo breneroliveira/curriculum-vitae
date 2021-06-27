@@ -20,23 +20,19 @@ h1 {
     font-size: 20px;
 }
 
-@media (min-width: 56em/*max-width: 925px*/) {
+@media (min-width: 56em) {
     main {
         width: 850px;
     }
 
     h1 {
         font-size: 30px;
-        /*vertical-align: middle;
-        text-align: left;*/
-        /*display: flex;*/
     }
 }
 
 hr {
     margin-top: 1.8em;
     margin-bottom: 2em;
-    /*box-shadow: rgb(50, 50, 50, 0.60) -0.1em 0.1em 0.2em;*/
 }
 
 h2 {
@@ -49,21 +45,10 @@ p {
     line-height: 20pt;
 }
 
-/*div {
-    margin: auto;
-    width: 50%;*/
-    /*background-color: red;*/
-    /*width: 250px;
-    height: 50pt;
-    
-}*/
-
 footer {
     text-align: center;
     margin-top: 25pt;
     height: 50pt;
-    /*background-color: green;*/
-    /*padding-right: 0pt;*/
 }
 
 a {
@@ -74,7 +59,6 @@ a {
 
 img {
     vertical-align: middle;
-    /*float: left;*/
 }
 
 .logo {
@@ -89,21 +73,15 @@ img:hover {
     margin-left: 30pt;
 }
 
-/*::-webkit-scrollbar-track {
-    
-}*/
-
 ::-webkit-scrollbar {
     width: 6pt;
 }
 
 ::-webkit-scrollbar-thumb {
-    /*background-color: rgb(179, 174, 174);*/
     background-color: rgb(218, 218, 218);
     border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    /*background-color: rgba(179, 174, 174, 0.781);*/
     background-color: rgb(175, 175, 175);
 }
